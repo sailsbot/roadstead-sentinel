@@ -2,6 +2,9 @@
 A repo to track roadstead dependencies.
 
 
+> Note that `async@2.0.1`, `lodash@3.10.1/3.10.2`, latest `skipper`, and latest `skipper-disk`, and latest `sails-disk` are all checked automatically as part of checking `sails` itself, so no need to worry about them.
+
+
 ## Help
 
 If you have questions or are having trouble, click [here](http://sailsjs.com/support).
