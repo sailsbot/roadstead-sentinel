@@ -1,6 +1,6 @@
 {
   "name": "roadstead-sentinel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A sentinel package for high-impact roadstead dependencies.",
   "main": "index.js",
   "scripts": {
