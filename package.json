@@ -31,7 +31,6 @@
     "sails-mongo": "latest",
     "sails-mysql": "latest",
     "sails-postgresql": "latest",
-    "sails-redis": "latest",
     "sails-stdlib": "latest",
     "sails.io.js": "latest",
     "sails.io.js-dist": "latest",
