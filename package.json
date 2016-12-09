@@ -32,11 +32,13 @@
     "sails-mysql": "latest",
     "sails-postgresql": "latest",
     "sails-redis": "latest",
+    "sails-stdlib": "latest",
     "sails.io.js": "latest",
     "sails.io.js-dist": "latest",
     "skipper-s3": "latest",
     "socket.io-client": "1.7.1",
-    "socket.io-redis": "latest"
+    "socket.io-redis": "latest",
+    "stdlib": "latest"
   },
   "devDependencies": {
     "mocha": "3.0.2"
