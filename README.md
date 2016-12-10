@@ -15,7 +15,7 @@ If you have questions or are having trouble, click [here](http://sailsjs.com/sup
 To report a bug, [click here](http://sailsjs.com/bugs).
 
 
-## Contributing &nbsp; [![Build Status](https://travis-ci.org/balderdashy/roadstead-sentinel.png?branch=master)](https://travis-ci.org/sailsbot/roadstead-sentinel) &nbsp; [![Build status on Windows](https://ci.appveyor.com/api/projects/status/dp9e8vm3lwfxdil2/branch/master?svg=true)](https://ci.appveyor.com/project/sailsbot/roadstead-sentinel/branch/master)
+## Contributing &nbsp; [![Dependencies status](https://david-dm.org/sailsbot/roadstead-sentinel.svg)](https://david-dm.org/sailsbot/roadstead-sentinel) &nbsp; [![Build Status](https://travis-ci.org/balderdashy/roadstead-sentinel.png?branch=master)](https://travis-ci.org/sailsbot/roadstead-sentinel) &nbsp; [![Build status on Windows](https://ci.appveyor.com/api/projects/status/dp9e8vm3lwfxdil2/branch/master?svg=true)](https://ci.appveyor.com/project/sailsbot/roadstead-sentinel/branch/master)
 
 
 Please observe the guidelines and conventions laid out in the [Sails project contribution guide](http://sailsjs.com/contribute) when opening issues or submitting pull requests.
