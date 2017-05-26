@@ -1,0 +1,226 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - sails-stdlib > machinepack-arrays > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > serve-favicon > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > connect > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > connect > finalhandler > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > compression > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > express-session > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > router > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > serve-static > send > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-grunt > grunt-contrib-watch > tiny-lr > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-mailgun > mailgun-js > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-mailgun > mailgun-js > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-grunt > grunt-contrib-watch > tiny-lr > body-parser > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > skipper > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > skipper > skipper-disk > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails.io.js > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-sockets > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-sockets > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-sockets > sails.io.js > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-sockets > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-sockets > socket.io > socket.io-parser > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-fs > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-fs > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-console > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-console > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-urls > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-urls > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-emailaddresses > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-emailaddresses > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-booleans > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-booleans > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-mailgun > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-mailgun > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-sessionauth > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-util > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-util > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-paths > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-paths > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-sails > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-math > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-math > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-numbers > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-numbers > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > machinepack-redis > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-sockets > machinepack-redis > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-http > machinepack-urls > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-http > machinepack-urls > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-sockets > machinepack-util > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-http > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-http > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-strings > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-strings > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-sockets > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > serve-static > send > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-arrays > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-passwords > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-passwords > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-datetime > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-datetime > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-waterline > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-dictionaries > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-dictionaries > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-json > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-json > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-ifthen > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-ifthen > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-gravatar > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-gravatar > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-process > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-process > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-reqres > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > machinepack-process > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > sails-generate > machinepack-process > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > machinepack-process > machinepack-json > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > sails-generate > machinepack-process > machinepack-json > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machinepack-json > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-fs > machinepack-json > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-fs > machinepack-json > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-process > machinepack-json > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-process > machinepack-json > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-fs > machinepack-strings > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-fs > machinepack-strings > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machinepack-strings > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-fs > machinepack-util > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - stdlib > machinepack-fs > machinepack-util > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machinepack-util > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > machine-as-action > machine > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - socket.io-client > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails.io.js > socket.io-client > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-sockets > socket.io > socket.io-client > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-sockets > socket.io-client > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-sockets > sails.io.js > socket.io-client > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails.io.js > socket.io-client > engine.io-client > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-sockets > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-sockets > socket.io-client > engine.io-client > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-stdlib > machinepack-sockets > sails.io.js > socket.io-client > engine.io-client > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - socket.io-redis > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - socket.io-redis > socket.io-adapter > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-sockets > socket.io > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-sockets > socket.io > engine.io > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails-hook-sockets > socket.io > socket.io-adapter > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > express > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > express > send > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > express > serve-static > send > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > skipper > body-parser > debug > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > express > send > ms:
+        patched: '2017-05-26T05:37:15.935Z'
+    - sails > express > serve-static > send > ms:
+        patched: '2017-05-26T05:37:15.935Z'
