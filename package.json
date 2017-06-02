@@ -35,7 +35,7 @@
     "sails.io.js": "latest",
     "sails.io.js-dist": "latest",
     "skipper-s3": "latest",
-    "socket.io-client": "1.7.3",
+    "socket.io-client": "2.0.2",
     "socket.io-redis": "latest",
     "stdlib": "latest"
   },
