@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.8.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - sails-stdlib > machinepack-fs > machinepack-util > machine > debug:
+        patched: '2017-11-24T05:37:14.046Z'
+  'npm:ms:20170412':
+    - sails-stdlib > machinepack-fs > machinepack-util > machine > debug > ms:
+        patched: '2017-11-24T05:37:14.046Z'
