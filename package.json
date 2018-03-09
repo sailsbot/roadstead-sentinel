@@ -28,7 +28,7 @@
     "sails-hook-grunt": "^1.0.7",
     "sails-hook-orm": "^2.0.0-1",
     "sails-hook-sockets": "^1.3.0",
-    "sails-mongo": "latest",
+    "sails-mongo": "latest0.12.3",
     "sails-mysql": "latest",
     "sails-postgresql": "latest",
     "sails-stdlib": "latest",
