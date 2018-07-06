@@ -1,0 +1,256 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - stdlib > machinepack-fs > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-sockets > machinepack-redis > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-sockets > machinepack-redis > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machinepack-json > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machinepack-strings > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machinepack-strings > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machinepack-strings > browserify-transform-machinepack > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machinepack-util > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machinepack-util > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-orm > sails-disk > machinepack-fs > machinepack-util > browserify-transform-machinepack > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-grunt > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-grunt > grunt-contrib-watch > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - skipper-s3 > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-stdlib > machinepack-process > machinepack-json > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-stdlib > machinepack-strings > browserify-transform-machinepack > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-stdlib > machinepack-http > machinepack-urls > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-stdlib > machinepack-http > machinepack-urls > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-stdlib > machinepack-http > machinepack-urls > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-stdlib > machinepack-http > machinepack-urls > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > machinepack-redis > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > machinepack-redis > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > machinepack-redis > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > machinepack-process > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > machinepack-process > machinepack-json > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > sort-route-addresses > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > sails-generate > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > sails-generate > machinepack-process > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > sails-generate > machinepack-process > machinepack-json > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > sails-generate > reportback > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails > skipper > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-http > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-http > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-http > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-http > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-http > machinepack-urls > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-http > machinepack-urls > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-http > machinepack-urls > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-http > machinepack-urls > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-arrays > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-arrays > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-arrays > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-arrays > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-arrays > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-datetime > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-datetime > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-datetime > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-datetime > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-emailaddresses > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-emailaddresses > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-emailaddresses > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-dictionaries > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-dictionaries > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-dictionaries > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-dictionaries > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-dictionaries > browserify-transform-machinepack > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-console > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-console > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-console > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - sails-hook-sockets > machinepack-redis > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-fs > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-fs > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-fs > machinepack-json > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-fs > machinepack-strings > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-fs > machinepack-strings > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-fs > machinepack-strings > browserify-transform-machinepack > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-fs > machinepack-util > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-fs > machinepack-util > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-fs > machinepack-util > browserify-transform-machinepack > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-booleans > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-booleans > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-booleans > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-booleans > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-json > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-json > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-json > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-mailgun > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-mailgun > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-mailgun > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-numbers > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-numbers > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-numbers > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-process > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-process > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-process > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-process > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-process > machinepack-json > machine > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-math > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-math > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-math > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-math > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-math > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-math > browserify-transform-machinepack > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-gravatar > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-gravatar > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-gravatar > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-ifthen > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-ifthen > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-ifthen > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-ifthen > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-ifthen > browserify-transform-machinepack > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-urls > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-urls > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-urls > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-urls > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-strings > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-strings > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-strings > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-strings > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-strings > browserify-transform-machinepack > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-passwords > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-passwords > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-passwords > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-util > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-util > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-util > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-util > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-util > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-util > browserify-transform-machinepack > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-paths > machine > include-all > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-paths > machine > rttc > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
+    - stdlib > machinepack-paths > machine > switchback > lodash:
+        patched: '2018-07-06T00:00:50.307Z'
