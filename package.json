@@ -23,7 +23,7 @@
   "homepage": "https://github.com/sailsbot/roadstead-sentinel#readme",
   "dependencies": {
     "connect-redis": "latest",
-    "grunt": "1.0.1",
+    "grunt": "1.0.4",
     "sails": "^1.0.0-18",
     "sails-hook-grunt": "^1.0.7",
     "sails-hook-orm": "^2.0.0-1",
