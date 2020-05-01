@@ -1,0 +1,70 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-orm > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-sockets > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-mongo > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-mysql > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-postgresql > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-stdlib > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-grunt > grunt-contrib-less > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-grunt > grunt-contrib-uglify > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-grunt > grunt-sync > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-grunt > grunt > grunt-legacy-log > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-stdlib > mailgun-js > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails > machinepack-redis > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails > sails-generate > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails > skipper > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-orm > sails-disk > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-orm > waterline-utils > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-mysql > waterline-utils > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-postgresql > waterline-utils > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-orm > waterline > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-sockets > machinepack-redis > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - stdlib > machinepack-util > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-orm > waterline > encrypted-attr > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-orm > waterline > waterline-utils > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-hook-grunt > grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-mysql > machinepack-mysql > waterline-sql-builder > knex > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-postgresql > machinepack-postgresql > waterline-sql-builder > knex > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - stdlib > machinepack-mailgun > mailgun-js > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-mysql > machinepack-mysql > waterline-sql-builder > waterline-utils > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - sails-postgresql > machinepack-postgresql > waterline-sql-builder > waterline-utils > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
+    - stdlib > machinepack-http > request > form-data > async > lodash:
+        patched: '2020-05-01T02:05:12.322Z'
