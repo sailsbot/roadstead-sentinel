@@ -4,7 +4,9 @@
   "description": "A sentinel package for high-impact roadstead dependencies.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha"
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -36,9 +38,11 @@
     "sails.io.js-dist": "latest",
     "skipper-s3": "latest",
     "socket.io-redis": "latest",
-    "stdlib": "latest"
+    "stdlib": "latest",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "mocha": "3.0.2"
-  }
+  },
+  "snyk": true
 }
