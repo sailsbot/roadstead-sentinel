@@ -1,0 +1,176 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - stdlib > machinepack-mailgun > mailgun-js > debug:
+        patched: '2022-09-23T09:25:21.405Z'
+    - sails-hook-grunt > grunt-contrib-watch > tiny-lr > body-parser > debug:
+        patched: '2022-09-23T09:25:21.405Z'
+  'npm:hoek:20180212':
+    - sails-stdlib > machinepack-http > request > hawk > hoek:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-http > request > hawk > hoek:
+        patched: '2022-09-23T09:25:21.405Z'
+    - sails-stdlib > machinepack-http > request > hawk > boom > hoek:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-http > request > hawk > boom > hoek:
+        patched: '2022-09-23T09:25:21.405Z'
+    - sails-stdlib > machinepack-http > request > hawk > sntp > hoek:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-http > request > hawk > sntp > hoek:
+        patched: '2022-09-23T09:25:21.405Z'
+    - sails-stdlib > machinepack-http > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-http > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-09-23T09:25:21.405Z'
+  'npm:lodash:20180130':
+    - sails-hook-grunt > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-arrays > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-booleans > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-datetime > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-dictionaries > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-http > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-ifthen > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-math > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-process > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-strings > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-urls > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-util > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-util > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - sails-stdlib > machinepack-http > machinepack-urls > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-http > machinepack-urls > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-arrays > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-fs > machinepack-strings > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-fs > machinepack-util > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-math > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - sails-hook-sockets > machinepack-redis > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-arrays > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-booleans > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-console > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-datetime > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-dictionaries > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-emailaddresses > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-fs > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-gravatar > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-http > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-ifthen > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-json > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-mailgun > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-math > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-numbers > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-passwords > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-paths > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-process > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-strings > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-urls > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-util > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-arrays > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-booleans > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-console > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-datetime > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-dictionaries > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-emailaddresses > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-fs > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-gravatar > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-http > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-ifthen > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-json > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-mailgun > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-math > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-numbers > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-passwords > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-paths > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-process > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-strings > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-urls > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-util > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-fs > machinepack-json > machine > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-process > machinepack-json > machine > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-fs > machinepack-strings > machine > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-fs > machinepack-util > machine > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - sails-stdlib > machinepack-http > machinepack-urls > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-http > machinepack-urls > machine > include-all > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - sails-stdlib > machinepack-http > machinepack-urls > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+    - stdlib > machinepack-http > machinepack-urls > machine > rttc > lodash:
+        patched: '2022-09-23T09:25:21.405Z'
+  'npm:ms:20170412':
+    - stdlib > machinepack-mailgun > mailgun-js > debug > ms:
+        patched: '2022-09-23T09:25:21.405Z'
+    - sails-hook-grunt > grunt-contrib-watch > tiny-lr > body-parser > debug > ms:
+        patched: '2022-09-23T09:25:21.405Z'
+  'npm:tunnel-agent:20170305':
+    - stdlib > machinepack-http > request > tunnel-agent:
+        patched: '2022-09-23T09:25:21.405Z'
