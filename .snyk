@@ -1,0 +1,164 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - stdlib > machinepack-mailgun > mailgun-js > debug:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:debug:20170905'
+        path: stdlib > machinepack-mailgun > mailgun-js > debug
+  'npm:lodash:20180130':
+    - stdlib > machinepack-arrays > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-arrays > lodash
+    - stdlib > machinepack-booleans > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-booleans > lodash
+    - stdlib > machinepack-datetime > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-datetime > lodash
+    - stdlib > machinepack-dictionaries > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-dictionaries > lodash
+    - stdlib > machinepack-math > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-math > lodash
+    - stdlib > machinepack-urls > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-urls > lodash
+    - stdlib > machinepack-arrays > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-arrays > rttc > lodash
+    - stdlib > machinepack-fs > machinepack-strings > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-fs > machinepack-strings > lodash
+    - stdlib > machinepack-fs > machinepack-util > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-fs > machinepack-util > lodash
+    - stdlib > machinepack-math > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-math > rttc > lodash
+    - stdlib > machinepack-arrays > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-arrays > machine > include-all > lodash
+    - stdlib > machinepack-booleans > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-booleans > machine > include-all > lodash
+    - stdlib > machinepack-console > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-console > machine > include-all > lodash
+    - stdlib > machinepack-datetime > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-datetime > machine > include-all > lodash
+    - stdlib > machinepack-dictionaries > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-dictionaries > machine > include-all > lodash
+    - stdlib > machinepack-emailaddresses > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-emailaddresses > machine > include-all > lodash
+    - stdlib > machinepack-fs > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-fs > machine > include-all > lodash
+    - stdlib > machinepack-mailgun > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-mailgun > machine > include-all > lodash
+    - stdlib > machinepack-math > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-math > machine > include-all > lodash
+    - stdlib > machinepack-numbers > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-numbers > machine > include-all > lodash
+    - stdlib > machinepack-paths > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-paths > machine > include-all > lodash
+    - stdlib > machinepack-urls > machine > include-all > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-urls > machine > include-all > lodash
+    - stdlib > machinepack-arrays > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-arrays > machine > rttc > lodash
+    - stdlib > machinepack-booleans > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-booleans > machine > rttc > lodash
+    - stdlib > machinepack-console > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-console > machine > rttc > lodash
+    - stdlib > machinepack-datetime > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-datetime > machine > rttc > lodash
+    - stdlib > machinepack-dictionaries > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-dictionaries > machine > rttc > lodash
+    - stdlib > machinepack-emailaddresses > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-emailaddresses > machine > rttc > lodash
+    - stdlib > machinepack-fs > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-fs > machine > rttc > lodash
+    - stdlib > machinepack-mailgun > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-mailgun > machine > rttc > lodash
+    - stdlib > machinepack-math > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-math > machine > rttc > lodash
+    - stdlib > machinepack-numbers > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-numbers > machine > rttc > lodash
+    - stdlib > machinepack-paths > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-paths > machine > rttc > lodash
+    - stdlib > machinepack-urls > machine > rttc > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-urls > machine > rttc > lodash
+    - stdlib > machinepack-fs > machinepack-json > machine > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-fs > machinepack-json > machine > lodash
+    - stdlib > machinepack-fs > machinepack-strings > machine > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-fs > machinepack-strings > machine > lodash
+    - stdlib > machinepack-fs > machinepack-util > machine > lodash:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:lodash:20180130'
+        path: stdlib > machinepack-fs > machinepack-util > machine > lodash
+  'npm:ms:20170412':
+    - stdlib > machinepack-mailgun > mailgun-js > debug > ms:
+        patched: '2024-03-22T14:36:17.363Z'
+        id: 'npm:ms:20170412'
+        path: stdlib > machinepack-mailgun > mailgun-js > debug > ms
